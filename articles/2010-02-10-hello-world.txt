@@ -1,0 +1,5 @@
+title: Hello World!
+date: 2010-02-10
+
+So I've decided to give [toto](http://cloudhead.io/toto) a go, let's see if this platform is a beauty or not!
+
