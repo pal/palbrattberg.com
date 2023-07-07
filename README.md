@@ -1,6 +1,8 @@
 # palbrattberg.com
 
-Remake my personal webpage into an Engineering Manager Software as a Service (SaaS) product.
+I remade my personal webpage into an Engineering Manager Software as a Service (SaaS) product.
+
+[![Deploy](https://github.com/pal/palbrattberg.com/actions/workflows/deploy.yml/badge.svg)](https://github.com/pal/palbrattberg.com/actions/workflows/deploy.yml)
 
 See [palbrattberg.com](https://palbrattberg.com) for the current version.
 
