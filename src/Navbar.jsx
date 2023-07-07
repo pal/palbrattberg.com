@@ -9,7 +9,7 @@ import { MdEmail } from 'react-icons/md'
 const menuItems = [
   { text: 'About', url: '#' },
   { text: 'Services', url: '#' },
-  { text: 'Login', url: '#' }
+  { text: 'Pricing', url: '#pricing' }
 ]
 
 const iconComponents = [
@@ -67,7 +67,9 @@ function MobileMenu ({ onClose }) {
               href='#'
               className='flex w-full items-center text-white justify-center rounded-full bg-[#7639DA] px-6 py-2.5 font-semibold hover:shadow-lg hover:drop-shadow transition duration-200'
             >
-              <span>Join now</span>
+              <a href='https://buy.stripe.com/aEUeUY8OCa3CfgA5kk'>
+                <span>Join now</span>
+              </a>
             </a>
           </div>
         </div>
@@ -115,7 +117,9 @@ function Navbar () {
         <div className='flex items-center justify-between'>
           <button>
             <div className='header-logo flex items-center space-x-2'>
-              <h2 className='text-black font-bold text-2xl'>Pål Brattberg - Engineering Leader Coach</h2>
+              <h2 className='text-black font-bold text-2xl'>
+                Pål Brattberg - Engineering Leader Coach
+              </h2>
             </div>
           </button>
           <div className='header-menu hidden  lg:flex items-center gap-x-10'>
@@ -130,7 +134,9 @@ function Navbar () {
             </ul>
             <div className='hidden lg:flex lg:items-center'>
               <button className='flex items-center text-white justify-center rounded-lg bg-[#7639DA] px-6 py-2.5 font-semibold hover:shadow-lg hover:drop-shadow transition duration-200'>
-                <span>Join now</span>
+                <a href='https://buy.stripe.com/aEUeUY8OCa3CfgA5kk'>
+                  <span>Join now</span>
+                </a>
               </button>
             </div>
           </div>

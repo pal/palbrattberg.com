@@ -25,16 +25,16 @@ function PricingSection () {
 
   return (
     <div className='max-w-3xl mx-auto pb-20 px-5 lg:px-0' id='pricing'>
+      <a name='pricing' />
       <div className='max-w-3xl flex flex-col gap-y-5 mx-auto'>
-        <div className='flex w-fit mx-auto items-center justify-center rounded-full bg-[#D0E4FF] text-black py-[3px] px-2 lg:px-4 lg:py-1.5 font-semibold text-[10px] lg:text-xs'>
-          <span>PRICING</span>
-        </div>
         <h2 className='text-3xl lg:text-5xl px-5 font-bold w-fit mx-auto text-center lg:text-left'>
-          Simple pricing 
+          Simple pricing
         </h2>
         <p className='w-fit max-w-lg mx-auto text-center text-sm lg:text-base'>
-          Many managers are able to get some budget for training or coaching. Spend your budget on something that is immediately useful for <b>you</b> to maximize your personal benefit!
-          Cancel or pause at any time. 
+          Many managers are able to get some budget for training or coaching.
+          Spend your budget on something that is immediately useful for{' '}
+          <b>you</b> to maximize your personal benefit! Cancel or pause at any
+          time.
         </p>
       </div>
       {pricingData.map(option => (
@@ -63,9 +63,11 @@ function PricingSection () {
                 </span>
               </h3>
             </div>
-            <button className='flex w-full items-center text-white justify-center rounded-full bg-[#6498DD] px-6 py-2.5 font-semibold hover:shadow-lg hover:drop-shadow transition duration-200'>
-              <span>Get Started</span>
-            </button>
+            <a href='https://buy.stripe.com/aEUeUY8OCa3CfgA5kk'>
+              <button className='flex w-full items-center text-white justify-center rounded-full bg-[#6498DD] px-6 py-2.5 font-semibold hover:shadow-lg hover:drop-shadow transition duration-200'>
+                <span>Get Started</span>
+              </button>
+            </a>
           </div>
           <div className='right-section lg:w-1/2 bg-[#FFF4F2] p-10 rounded-br-xl flex items-center md:items-start justify-start lg:items-center lg:justify-center rounded-r-xl'>
             <div className='flex flex-col gap-y-3'>

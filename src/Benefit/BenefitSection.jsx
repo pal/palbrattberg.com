@@ -24,8 +24,11 @@ function BenefitSection () {
           coaching I help you
         </h3>
         {benefitsData.map((benefit, index) => (
-          <div className='flex items-center gap-x-3 mt-3'>
-            <div className=' rounded-full'>
+          <div
+            key={'benefit_' + index}
+            className='flex items-center gap-x-3 mt-3'
+          >
+            <div className='rounded-full w-8'>
               <img className='h-5 w-5' src={ticked} alt='ticked' />
             </div>
             <div className='flex flex-col gap-y-2'>
