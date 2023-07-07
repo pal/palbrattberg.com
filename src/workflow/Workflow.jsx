@@ -38,7 +38,7 @@ const Card = ({ title, description, image }) => (
 
 const Services = () => (
   <div className='service-section'>
-    <div className='services max-w-5xl mx-auto px-0 pt-28 lg:py-10 justify-center items-center'>
+    <div className='services max-w-5xl mx-auto px-0 pt-18 lg:py-10 justify-center items-center'>
       <h3 className='text-3xl lg:text-[34px] font-bold max-w-xs sm:max-w-4xl lg:max-w-2xl sm:mx-auto text-center leading-[1.15]'>
         I help new and seasoned Engineering Leaders level up and get a true ally
         in their corner

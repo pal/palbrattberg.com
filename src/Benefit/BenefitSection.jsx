@@ -17,7 +17,7 @@ const benefitsData = [
 
 function BenefitSection () {
   return (
-    <div className='max-w-5xl mx-auto pb-10 lg:py-10 px-10 flex flex-col gap-y-10 md:flex-row items-center justify-center gap-x-10 py-10'>
+    <div className='max-w-5xl mx-auto pb-10 lg:py-5 px-10 flex flex-col gap-y-10 md:flex-row items-center justify-center gap-x-10 py-5'>
       <div className='left-text lg:w-1/2 flex flex-col gap-y-3.5'>
         <h3 className='text-[#27392A] font-bold text-xl md:text-2xl lg:text-3xl flex items-center'>
           With decades of wide & deep experience and a history of impact-focused
