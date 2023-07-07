@@ -2,7 +2,7 @@ import React from "react";
 import HeroSection from "./Hero/HeroSection";
 import Workingflow from "./workflow/Workflow";
 import BenefitSection from "./Benefit/BenefitSection";
-
+import PricingSection from "./Pricing/PricingSection";
 import Footer from "./Footer/Footer";
 
 function App() {
@@ -11,6 +11,7 @@ function App() {
       <HeroSection />
       <Workingflow />
       <BenefitSection />
+      <PricingSection />
       <Footer />
     </div>
   );

@@ -49,9 +49,7 @@ function FormSection() {
           required
         />
       </div>
-      <div className="w-full">
-        <OptionMenu serviceOptions={serviceOptions} />
-      </div>
+     
       <div className="w-full lg:w-1/2">
         {" "}
         <button className="w-full flex items-center text-white justify-center rounded-lg bg-[#7639DA] px-6 py-2.5 font-semibold hover:shadow-lg hover:drop-shadow transition duration-200">

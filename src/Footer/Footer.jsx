@@ -13,8 +13,8 @@ function Footer() {
     <div className="bg-[#F8F8F8] lg:px-10 pt-10">
       <div className="max-w-5xl mx-auto border-b border-[#E3E3EA] pb-5">
         <div className="flex flex-col gap-y-10 lg:flex-row items-center justify-between">
-          <h2 className="w-1/2 text-black flex justify-center lg:justify-start font-bold text-2xl">
-            <a href="#">Service Saas</a>
+          <h2 className="w-1/2 text-black flex justify-center lg:justify-start font-bold text-xl">
+            <a href="/">Pål Brattberg - Engineering Leader Coach</a>
           </h2>
           <div className="lg:w-2/3 flex items-center justify-between w-full px-10">
             <div>
