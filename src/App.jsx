@@ -13,7 +13,6 @@ function App() {
       <Workingflow />
       <BenefitSection />
       <PricingSection />
-      <FaqSection />
       <Footer />
     </div>
   );

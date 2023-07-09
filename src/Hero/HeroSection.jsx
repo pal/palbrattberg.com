@@ -2,6 +2,17 @@ import React from 'react'
 import Navbar from '../Navbar'
 import FormSection from './FormSection'
 
+const referencesData = [
+  { logo: 'minna.png', name: 'Minna Technologies' },
+  { logo: 'smspark.png', name: 'SMS Park / Inteleon' },
+  { logo: 'piktiv.png', name: 'Piktiv' },
+  { logo: 'acando.png', name: 'Acando' },
+  { logo: 'sendify.png', name: 'Sendify' },
+  { logo: 'speedledger.png', name: 'SpeedLedger' },
+  { logo: 'bizscree.png', name: 'BizScreen' },
+  { logo: 'peasy.png', name: 'Peasy.nu' }
+]
+
 function HeroSection () {
   return (
     <div>
@@ -12,10 +23,50 @@ function HeroSection () {
             Level up as Engineering Leader, on{' '}
             <span className='purple-underline-2'>your</span> schedule
           </h2>
-          <p className='max-w-lg text-sm lg:text-lg mx-auto'>
+          <p className='max-w-lg text-lg mx-auto'>
             Get an experienced, battle-tested engineering leader in your corner
             to give you an edge in your career.
           </p>
+          <p className='max-w-lg text-lg mx-auto'>
+            I will meet you where you are - starting out or 10+ years in the
+            field
+          </p>
+          <ul className='list-disc max-w-2xl text-m lg:text-lg mx-auto'>
+            <li>
+              You will get a 100% personal, only-for-you video where I go over
+              the topic, including stories from real life as well as things I've
+              picked up from colleagues, mentors, conferences, books etc.{' '}
+            </li>
+            <li>
+              I will break down the key points to consider in an easy-to-digest
+              Q&A-type document
+            </li>
+            <li>
+              You will get templates and checklists you can use right away in
+              your life and work
+            </li>
+            <li>
+              {' '}
+              On many topics you will also get a list of more information such
+              as books, blogs, videos that you can use to go deeper down the
+              rabbit hole
+            </li>
+          </ul>
+          <div className='testimonial-company flex flex-col gap-y-5 lg:gap-y-10 items-center justify-center py-5 lg:py-20'>
+            <p className='text-base text-center text-slate-600/70 lg:text-xl font-medium px-20'>
+              Satisfied customers at fast-paced companies
+            </p>
+            <div className='company-logo flex items-center max-w-4xl mx-auto justify-center gap-x-10 lg:gap-x-32'>
+              {referencesData.map((reference, index) => (
+                <img
+                  key={index}
+                  className='h-6 w-6 lg:h-auto lg:w-auto'
+                  src={'/ref/' + reference.logo}
+                  alt={reference.name}
+                />
+              ))}
+            </div>
+          </div>
         </div>
       </div>
     </div>

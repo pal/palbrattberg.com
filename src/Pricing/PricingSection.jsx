@@ -6,16 +6,16 @@ function PricingSection () {
   const pricingData = [
     {
       id: 1,
-      type: 'For individuals',
-      name: 'Basic',
+      type: 'Coaching for Engineering Leaders',
+      name: '100% async coaching',
       description:
-        'Show social proof notifications to increase leads and sales.',
+        'Super-personalized coaching/mentoring to become a better leader for engineers',
       /* Pricing data on the top ☝ */
       includedFeatures: [
-        'All analytics features',
-        'Up to 250,000 tracked visits',
-        'Normal support',
-        'Up to 3 team members'
+        'Personalized video coaching',
+        'Checklists and templates',
+        'Full focus on you and your career',
+        'Cancel or pause at any time'
       ],
       price: '4,995',
       duration: '/month'
