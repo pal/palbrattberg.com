@@ -6,11 +6,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>P&aring;l Brattberg | palbrattberg.com</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <!-- Quick font loading as per https://pagespeedchecklist.com/asynchronous-google-fonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
+      rel="preload"
+      as="style"
       href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap"
-      rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      media="print"
+      onload="this.onload=null;this.removeAttribute('media');"
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap"
+    />
+    <noscript>
+      <link
+        rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap"
+      />
+    </noscript>
     <script
       src="https://cdn.usefathom.com/script.js"
       data-site="CCVZVKQQ"
