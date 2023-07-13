@@ -16,7 +16,6 @@ const referencesData = [
 function HeroSection () {
   return (
     <div>
-      <Navbar />
       <div className='main-hero-section relative py-4 px-6'>
         <div className='main-hero-container max-w-5xl  mx-auto text-center flex flex-col gap-y-5 justify-center items-center'>
           <h2 className='font-bold text-[#27392A] text-5xl lg:text-7xl max-w-3xl mx-auto rounded-5xl'>
@@ -56,11 +55,11 @@ function HeroSection () {
             <p className='text-base text-center text-slate-600/70 lg:text-xl font-medium px-20'>
               Satisfied customers at fast-paced companies
             </p>
-            <div className='company-logo flex items-center max-w-4xl mx-auto justify-center gap-x-10 lg:gap-x-32'>
+            <div className='company-logo flex flex-row flex-wrap items-center mx-auto justify-center gap-x-10 gap-y-5'>
               {referencesData.map((reference, index) => (
                 <img
                   key={index}
-                  className='h-6 w-6 lg:h-auto lg:w-auto'
+                  className='max-w-[100px] lg:max-w-[200px]'
                   src={'/ref/' + reference.logo}
                   alt={reference.name}
                 />

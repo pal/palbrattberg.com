@@ -48,7 +48,7 @@ function MobileMenu ({ onClose }) {
     <div className='main-nav-menu-mobile z-50 bg-transparent shadow-sm lg:shadow-none absolute left-0 top-0 bottom-0 right-0 border-r border-slate-400/30 border-dashed w-[270px] md:w-[300px] lg:flex lg:w-[300px] lg:flex-col'>
       <button>
         <div className='header-logo p-5 flex items-center space-x-2'>
-          <h2 className='text-black font-bold text-2xl'>Service SaaS</h2>
+          &nbsp;
         </div>
       </button>
       <div className='header-menu lg:hidden'>
@@ -115,13 +115,7 @@ function Navbar () {
     <div className='navbar-home top-0 py-2 lg:py-5 w-full bg-transparent lg:relative z-50'>
       <nav className='z-10 sticky top-0 left-0 right-0 max-w-4xl xl:max-w-5xl mx-auto px-5 py-2.5 lg:border-none lg:py-4'>
         <div className='flex items-center justify-between'>
-          <button>
-            <div className='header-logo flex items-center space-x-2'>
-              <h2 className='text-black font-bold text-2xl'>
-                Pål Brattberg - Engineering Leader Coach
-              </h2>
-            </div>
-          </button>
+          <div className='header-logo flex items-center space-x-2'>&nbsp;</div>
           <div className='header-menu hidden  lg:flex items-center gap-x-10'>
             <ul className='flex space-x-10 text-base font-bold text-black/60'>
               {menuItems.map((menuItem, index) => (
