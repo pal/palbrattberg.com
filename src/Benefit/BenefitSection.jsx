@@ -1,5 +1,5 @@
 import React from 'react'
-import moneyHuman from '../assets/making-money.jpg'
+import moneyHuman from '../assets/making-money.webp'
 import ticked from '../assets/ticked.svg'
 
 const benefitsData = [
