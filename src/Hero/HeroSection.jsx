@@ -3,14 +3,14 @@ import Navbar from '../Navbar'
 import FormSection from './FormSection'
 
 const referencesData = [
-  { logo: 'minna.png', name: 'Minna Technologies' },
+  // { logo: 'minna.png', name: 'Minna Technologies' },
   { logo: 'smspark.png', name: 'SMS Park / Inteleon' },
   { logo: 'piktiv.png', name: 'Piktiv' },
   { logo: 'acando.png', name: 'Acando' },
   { logo: 'sendify.png', name: 'Sendify' },
   { logo: 'speedledger.png', name: 'SpeedLedger' },
   { logo: 'bizscree.png', name: 'BizScreen' },
-  { logo: 'peasy.png', name: 'Peasy.nu' }
+  // { logo: 'peasy.png', name: 'Peasy.nu' }
 ]
 
 function HeroSection () {
