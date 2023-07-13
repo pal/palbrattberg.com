@@ -30,7 +30,7 @@ function HeroSection () {
             I will meet you where you are - starting out or 10+ years in the
             field
           </p>
-          <ul className='list-disc max-w-2xl text-m lg:text-lg mx-auto'>
+          <ul className='list-none max-w-2xl text-m lg:text-lg mx-auto space-y-5'>
             <li>
               You will get a 100% personal, only-for-you video where I go over
               the topic, including stories from real life as well as things I've
